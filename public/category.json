@@ -1,0 +1,42 @@
+[
+    {
+      "id": "pharmacy",
+      "name": "Pharmacy"
+    },
+    {
+      "id": "bricks",
+      "name": "Bricks"
+    },
+    {
+      "id": "car_rental",
+      "name": "Car Rental"
+    },
+    {
+      "id": "lawyer",
+      "name": "Lawyer"
+    },
+    {
+      "id": "ambulance",
+      "name": "Ambulance"
+    },
+    {
+      "id": "stationary",
+      "name": "Stationary"
+    },
+    {
+      "id": "library",
+      "name": "Library"
+    },
+    {
+      "id": "hotel",
+      "name": "Hotel"
+    },
+    {
+      "id": "clinic",
+      "name": "Clinic"
+    },
+    {
+      "id": "pet_store",
+      "name": "Pet Store"
+    }
+  ]
