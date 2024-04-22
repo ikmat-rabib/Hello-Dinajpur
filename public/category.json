@@ -38,5 +38,13 @@
     {
       "id": "pet_store",
       "name": "Pet Store"
+    },
+    {
+      "id": "gadgets",
+      "name": "Gadgets Store"
+    },
+    {
+      "id": "hardware",
+      "name": "Hardware Store"
     }
   ]

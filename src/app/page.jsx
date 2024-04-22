@@ -1,3 +1,5 @@
+import Footer from "./components/shared/Footer";
+import Navbar from "./components/shared/Navbar";
 import Advertisement from "./components/ui/Advertisement/Advertisement";
 import AllCategory from "./components/ui/AllCategory/AllCategory";
 import Banner from "./components/ui/Banner/Banner";
@@ -9,6 +11,7 @@ import TopBusiness from "./components/ui/TopBusiness/TopBusiness";
 const HomePage = () => {
   return (
     <div  >
+      <Navbar></Navbar>
       <Banner ></Banner>
 
       <div className="md:grid md:grid-cols-6 md:gap-1 md:pt-16">
@@ -27,6 +30,7 @@ const HomePage = () => {
         </div>
       </div>
       <Advertisement></Advertisement>
+      <Footer></Footer>
     </div>
   );
 };

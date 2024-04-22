@@ -48,23 +48,7 @@ const AdvertisePage = () => {
                     </div>
 
 
-                    <div className="flex md:gap-3">
-                        {/* Minimum price */}
-                        {/* <div className="form-control w-1/2">
-                            <label className="label">
-                                <span className="label-text font-semibold">Minimum price</span>
-                            </label>
-                            <input type="text" name="min_price" placeholder="Min Price" className="input input-bordered" required />
-                        </div> */}
-
-                        {/* Maximum price */}
-                        {/* <div className="form-control w-1/2">
-                            <label className="label">
-                                <span className="label-text font-semibold">Maximum Price</span>
-                            </label>
-                            <input type="text" name="max_price" placeholder="Max Price" className="input input-bordered" required />
-                        </div> */}
-                    </div>
+                   
 
                     {/* description */}
                     <div className="form-control">
