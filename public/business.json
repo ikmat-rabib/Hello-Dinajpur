@@ -1,233 +1,242 @@
-{
+[
+  {
+    "id": "pharmacy",
+    "categoryName": "Pharmacy",
     "businesses": [
       {
-        "category": "pharmacy",
-        "businesses": [
-          {
-            "businessName": "MediCare Pharmacy",
-            "businessOwner": "John Smith",
-            "contact": "+1 (555) 123-4567",
-            "location": "123 Main Street, Anytown",
-            "businessTime": "Mon-Fri: 9am-7pm, Sat-Sun: 10am-4pm"
-          },
-          {
-            "businessName": "Healthy Life Pharmacy",
-            "businessOwner": "Emily Johnson",
-            "contact": "+1 (555) 987-6543",
-            "location": "456 Elm Street, Anytown",
-            "businessTime": "Mon-Sat: 8am-8pm, Sun: 10am-6pm"
-          }
-        ]
+        "businessName": "MediCare Pharmacy",
+        "businessOwner": "John Smith",
+        "contact": "+1 (555) 123-4567",
+        "location": "123 Main Street, Anytown",
+        "businessTime": "Mon-Fri: 9am-7pm, Sat-Sun: 10am-4pm"
       },
       {
-        "category": "car_rental",
-        "businesses": [
-          {
-            "businessName": "Speedy Wheels Car Rentals",
-            "businessOwner": "Michael Brown",
-            "contact": "+1 (555) 222-7890",
-            "location": "789 Oak Avenue, Anytown",
-            "businessTime": "Mon-Sun: 24 hours"
-          },
-          {
-            "businessName": "Rent-A-Car Anywhere",
-            "businessOwner": "Samantha Green",
-            "contact": "+1 (555) 444-5678",
-            "location": "101 Pine Street, Anytown",
-            "businessTime": "Mon-Fri: 8am-6pm, Sat: 9am-5pm, Sun: Closed"
-          }
-        ]
+        "businessName": "Healthy Life Pharmacy",
+        "businessOwner": "Emily Johnson",
+        "contact": "+1 (555) 987-6543",
+        "location": "456 Elm Street, Anytown",
+        "businessTime": "Mon-Sat: 8am-8pm, Sun: 10am-6pm"
+      }
+    ]
+  },
+  {
+    "id": "car_rental",
+    "categoryName": "Car Rental",
+    "businesses": [
+      {
+        "businessName": "Speedy Wheels Car Rentals",
+        "businessOwner": "Michael Brown",
+        "contact": "+1 (555) 222-7890",
+        "location": "789 Oak Avenue, Anytown",
+        "businessTime": "Mon-Sun: 24 hours"
       },
       {
-        "category": "bricks",
-        "businesses": [
-          {
-            "businessName": "Bricks Galore",
-            "businessOwner": "David Lee",
-            "contact": "+1 (555) 777-8888",
-            "location": "321 Maple Avenue, Anytown",
-            "businessTime": "Mon-Sat: 9am-5pm, Sun: Closed"
-          },
-          {
-            "businessName": "Build-It Supplies",
-            "businessOwner": "Sarah Johnson",
-            "contact": "+1 (555) 333-4444",
-            "location": "555 Cedar Street, Anytown",
-            "businessTime": "Mon-Fri: 8am-6pm, Sat: 9am-4pm, Sun: Closed"
-          }
-        ]
+        "businessName": "Rent-A-Car Anywhere",
+        "businessOwner": "Samantha Green",
+        "contact": "+1 (555) 444-5678",
+        "location": "101 Pine Street, Anytown",
+        "businessTime": "Mon-Fri: 8am-6pm, Sat: 9am-5pm, Sun: Closed"
+      }
+    ]
+  },
+  {
+    "id": "bricks",
+    "categoryName": "Bricks",
+    "businesses": [
+      {
+        "businessName": "Bricks Galore",
+        "businessOwner": "David Lee",
+        "contact": "+1 (555) 777-8888",
+        "location": "321 Maple Avenue, Anytown",
+        "businessTime": "Mon-Sat: 9am-5pm, Sun: Closed"
       },
       {
-        "category": "lawyer",
-        "businesses": [
-          {
-            "businessName": "Legal Eagles",
-            "businessOwner": "Alexandra Carter",
-            "contact": "+1 (555) 666-9999",
-            "location": "777 Walnut Avenue, Anytown",
-            "businessTime": "Mon-Fri: 9am-5pm, Sat-Sun: Closed"
-          },
-          {
-            "businessName": "Smith & Associates",
-            "businessOwner": "Robert Smith",
-            "contact": "+1 (555) 777-1111",
-            "location": "888 Cherry Street, Anytown",
-            "businessTime": "Mon-Fri: 8am-6pm, Sat: 10am-2pm, Sun: Closed"
-          }
-        ]
+        "businessName": "Build-It Supplies",
+        "businessOwner": "Sarah Johnson",
+        "contact": "+1 (555) 333-4444",
+        "location": "555 Cedar Street, Anytown",
+        "businessTime": "Mon-Fri: 8am-6pm, Sat: 9am-4pm, Sun: Closed"
+      }
+    ]
+  },
+  {
+    "id": "lawyer",
+    "categoryName": "Lawyer",
+    "businesses": [
+      {
+        "businessName": "Legal Eagles",
+        "businessOwner": "Alexandra Carter",
+        "contact": "+1 (555) 666-9999",
+        "location": "777 Walnut Avenue, Anytown",
+        "businessTime": "Mon-Fri: 9am-5pm, Sat-Sun: Closed"
       },
       {
-        "category": "ambulance",
-        "businesses": [
-          {
-            "businessName": "SwiftCare Ambulance Service",
-            "businessOwner": "Jessica Martinez",
-            "contact": "+1 (555) 111-2222",
-            "location": "999 Pine Avenue, Anytown",
-            "businessTime": "24/7"
-          },
-          {
-            "businessName": "Rescue Response",
-            "businessOwner": "Daniel Thompson",
-            "contact": "+1 (555) 888-2222",
-            "location": "222 Oak Street, Anytown",
-            "businessTime": "24/7"
-          }
-        ]
+        "businessName": "Smith & Associates",
+        "businessOwner": "Robert Smith",
+        "contact": "+1 (555) 777-1111",
+        "location": "888 Cherry Street, Anytown",
+        "businessTime": "Mon-Fri: 8am-6pm, Sat: 10am-2pm, Sun: Closed"
+      }
+    ]
+  },
+  {
+    "id": "ambulance",
+    "categoryName": "Ambulance",
+    "businesses": [
+      {
+        "businessName": "SwiftCare Ambulance Service",
+        "businessOwner": "Jessica Martinez",
+        "contact": "+1 (555) 111-2222",
+        "location": "999 Pine Avenue, Anytown",
+        "businessTime": "24/7"
       },
       {
-        "category": "stationary",
-        "businesses": [
-          {
-            "businessName": "Stationary Haven",
-            "businessOwner": "Jennifer Davis",
-            "contact": "+1 (555) 333-5555",
-            "location": "444 Elm Avenue, Anytown",
-            "businessTime": "Mon-Sat: 9am-6pm, Sun: 10am-4pm"
-          },
-          {
-            "businessName": "Paper Trail",
-            "businessOwner": "Matthew Wilson",
-            "contact": "+1 (555) 666-7777",
-            "location": "666 Maple Street, Anytown",
-            "businessTime": "Mon-Fri: 8am-7pm, Sat: 9am-5pm, Sun: Closed"
-          }
-        ]
+        "businessName": "Rescue Response",
+        "businessOwner": "Daniel Thompson",
+        "contact": "+1 (555) 888-2222",
+        "location": "222 Oak Street, Anytown",
+        "businessTime": "24/7"
+      }
+    ]
+  },
+  {
+    "id": "stationary",
+    "categoryName": "Stationary",
+    "businesses": [
+      {
+        "businessName": "Stationary Haven",
+        "businessOwner": "Jennifer Davis",
+        "contact": "+1 (555) 333-5555",
+        "location": "444 Elm Avenue, Anytown",
+        "businessTime": "Mon-Sat: 9am-6pm, Sun: 10am-4pm"
       },
       {
-        "category": "library",
-        "businesses": [
-          {
-            "businessName": "Community Library",
-            "businessOwner": "Laura Garcia",
-            "contact": "+1 (555) 999-0000",
-            "location": "777 Oak Street, Anytown",
-            "businessTime": "Mon-Wed: 10am-6pm, Thu: 12pm-8pm, Fri-Sun: Closed"
-          },
-          {
-            "businessName": "Knowledge Hub",
-            "businessOwner": "Mark Wilson",
-            "contact": "+1 (555) 222-3333",
-            "location": "888 Pine Avenue, Anytown",
-            "businessTime": "Mon-Fri: 9am-5pm, Sat-Sun: Closed"
-          }
-        ]
+        "businessName": "Paper Trail",
+        "businessOwner": "Matthew Wilson",
+        "contact": "+1 (555) 666-7777",
+        "location": "666 Maple Street, Anytown",
+        "businessTime": "Mon-Fri: 8am-7pm, Sat: 9am-5pm, Sun: Closed"
+      }
+    ]
+  },
+  {
+    "id": "library",
+    "categoryName": "Library",
+    "businesses": [
+      {
+        "businessName": "Community Library",
+        "businessOwner": "Laura Garcia",
+        "contact": "+1 (555) 999-0000",
+        "location": "777 Oak Street, Anytown",
+        "businessTime": "Mon-Wed: 10am-6pm, Thu: 12pm-8pm, Fri-Sun: Closed"
       },
       {
-        "category": "hotel",
-        "businesses": [
-          {
-            "businessName": "Sunset Inn",
-            "businessOwner": "Rachel Adams",
-            "contact": "+1 (555) 777-1234",
-            "location": "123 Elm Street, Anytown",
-            "businessTime": "24/7"
-          },
-          {
-            "businessName": "City Lights Hotel",
-            "businessOwner": "James Brown",
-            "contact": "+1 (555) 888-5678",
-            "location": "456 Maple Avenue, Anytown",
-            "businessTime": "24/7"
-          }
-        ]
+        "businessName": "Knowledge Hub",
+        "businessOwner": "Mark Wilson",
+        "contact": "+1 (555) 222-3333",
+        "location": "888 Pine Avenue, Anytown",
+        "businessTime": "Mon-Fri: 9am-5pm, Sat-Sun: Closed"
+      }
+    ]
+  },
+  {
+    "id": "hotel",
+    "categoryName": "Hotel",
+    "businesses": [
+      {
+        "businessName": "Sunset Inn",
+        "businessOwner": "Rachel Adams",
+        "contact": "+1 (555) 777-1234",
+        "location": "123 Elm Street, Anytown",
+        "businessTime": "24/7"
       },
       {
-        "category": "clinic",
-        "businesses": [
-          {
-            "businessName": "Healthy Living Clinic",
-            "businessOwner": "Sarah Wilson",
-            "contact": "+1 (555) 111-5555",
-            "location": "789 Pine Street, Anytown",
-            "businessTime": "Mon-Fri: 8am-7pm, Sat: 9am-5pm, Sun: Closed"
-          },
-          {
-            "businessName": "Wellness Center",
-            "businessOwner": "Michael Johnson",
-            "contact": "+1 (555) 222-7777",
-            "location": "101 Oak Avenue, Anytown",
-            "businessTime": "Mon-Sat: 9am-6pm, Sun: Closed"
-          }
-        ]
+        "businessName": "City Lights Hotel",
+        "businessOwner": "James Brown",
+        "contact": "+1 (555) 888-5678",
+        "location": "456 Maple Avenue, Anytown",
+        "businessTime": "24/7"
+      }
+    ]
+  },
+  {
+    "id": "clinic",
+    "categoryName": "Clinic",
+    "businesses": [
+      {
+        "businessName": "Healthy Living Clinic",
+        "businessOwner": "Sarah Wilson",
+        "contact": "+1 (555) 111-5555",
+        "location": "789 Pine Street, Anytown",
+        "businessTime": "Mon-Fri: 8am-7pm, Sat: 9am-5pm, Sun: Closed"
       },
       {
-        "category": "pet_store",
-        "businesses": [
-          {
-            "businessName": "Paws & Claws Pet Store",
-            "businessOwner": "Emily White",
-            "contact": "+1 (555) 999-1111",
-            "location": "222 Cherry Street, Anytown",
-            "businessTime": "Mon-Sun: 9am-6pm"
-          },
-          {
-            "businessName": "Furry Friends Emporium",
-            "businessOwner": "David Miller",
-            "contact": "+1 (555) 333-4444",
-            "location": "333 Elm Avenue, Anytown",
-            "businessTime": "Mon-Sat: 10am-8pm, Sun: 11am-5pm"
-          }
-        ]
+        "businessName": "Wellness Center",
+        "businessOwner": "Michael Johnson",
+        "contact": "+1 (555) 222-7777",
+        "location": "101 Oak Avenue, Anytown",
+        "businessTime": "Mon-Sat: 9am-6pm, Sun: Closed"
+      }
+    ]
+  },
+  {
+    "id": "pet_store",
+    "categoryName": "Pet Store",
+    "businesses": [
+      {
+        "businessName": "Paws & Claws Pet Store",
+        "businessOwner": "Emily White",
+        "contact": "+1 (555) 999-1111",
+        "location": "222 Cherry Street, Anytown",
+        "businessTime": "Mon-Sun: 9am-6pm"
       },
       {
-        "category": "gadgets",
-        "businesses": [
-          {
-            "businessName": "Gadget Galaxy",
-            "businessOwner": "Steven Clark",
-            "contact": "+1 (555) 777-9999",
-            "location": "777 Maple Street, Anytown",
-            "businessTime": "Mon-Sun: 10am-8pm"
-          },
-          {
-            "businessName": "Tech Haven",
-            "businessOwner": "Lisa Taylor",
-            "contact": "+1 (555) 222-8888",
-            "location": "888 Oak Avenue, Anytown",
-            "businessTime": "Mon-Fri: 9am-7pm, Sat: 10am-6pm, Sun: Closed"
-          }
-        ]
+        "businessName": "Furry Friends Emporium",
+        "businessOwner": "David Miller",
+        "contact": "+1 (555) 333-4444",
+        "location": "333 Elm Avenue, Anytown",
+        "businessTime": "Mon-Sat: 10am-8pm, Sun: 11am-5pm"
+      }
+    ]
+  },
+  {
+    "id": "gadgets",
+    "categoryName": "Gadgets",
+    "businesses": [
+      {
+        "businessName": "Gadget Galaxy",
+        "businessOwner": "Steven Clark",
+        "contact": "+1 (555) 777-9999",
+        "location": "777 Maple Street, Anytown",
+        "businessTime": "Mon-Sun: 10am-8pm"
       },
       {
-        "category": "hardware",
-        "businesses": [
-          {
-            "businessName": "Handyman Hardware",
-            "businessOwner": "Andrew Wilson",
-            "contact": "+1 (555) 111-2222",
-            "location": "999 Elm Street, Anytown",
-            "businessTime": "Mon-Sat: 8am-6pm, Sun: 10am-4pm"
-          },
-          {
-            "businessName": "Tool Time",
-            "businessOwner": "Jessica Brown",
-            "contact": "+1 (555) 444-5555",
-            "location": "101 Pine Avenue, Anytown",
-            "businessTime": "Mon-Fri: 9am-7pm, Sat: 9am-5pm, Sun: Closed"
-          }
-        ]
+        "businessName": "Tech Haven",
+        "businessOwner": "Lisa Taylor",
+        "contact": "+1 (555) 222-8888",
+        "location": "888 Oak Avenue, Anytown",
+        "businessTime": "Mon-Fri: 9am-7pm, Sat: 10am-6pm, Sun: Closed"
+      }
+    ]
+  },
+  {
+    "id": "hardware",
+    "categoryName": "Hardware",
+    "businesses": [
+      {
+        "businessName": "Handyman Hardware",
+        "businessOwner": "Andrew Wilson",
+        "contact": "+1 (555) 111-2222",
+        "location": "999 Elm Street, Anytown",
+        "businessTime": "Mon-Sat: 8am-6pm, Sun: 10am-4pm"
+      },
+      {
+        "businessName": "Tool Time",
+        "businessOwner": "Jessica Brown",
+        "contact": "+1 (555) 444-5555",
+        "location": "101 Pine Avenue, Anytown",
+        "businessTime": "Mon-Fri: 9am-7pm, Sat: 9am-5pm, Sun: Closed"
       }
     ]
   }
-  
+]
