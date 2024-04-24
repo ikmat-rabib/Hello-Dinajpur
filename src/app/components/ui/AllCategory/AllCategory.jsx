@@ -1,12 +1,9 @@
 import Link from "next/link";
-// import cat from "./../../../../../public/category.json"
-import categories from "./../../../../../public/business.json"
+import cat from "./../../../../../public/category.json"
 
 const AllCategory = () => {
 
-    // console.log(cat);
-    console.log(categories);
-
+    console.log(cat);
 
 
     return (
@@ -16,11 +13,12 @@ const AllCategory = () => {
 
 
                 {
-                    categories?.map( (category) => (<li 
-                        key={category.id}>
+                    cat?.map( (category) => (<li 
+                        key={category.id}
+                        >
                             <Link 
                             href={`/${category.id}`}>
-                                {category.categoryName}
+                                {category.displayCatName}
                             </Link></li>))
                 }
 

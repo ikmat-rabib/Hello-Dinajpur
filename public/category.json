@@ -1,50 +1,50 @@
 [
     {
       "id": "pharmacy",
-      "name": "Pharmacy"
+      "displayCatName": "Pharmacy"
     },
     {
       "id": "bricks",
-      "name": "Bricks"
+      "displayCatName": "Bricks"
     },
     {
       "id": "car_rental",
-      "name": "Car Rental"
+      "displayCatName": "Car Rental"
     },
     {
       "id": "lawyer",
-      "name": "Lawyer"
+      "displayCatName": "Lawyer"
     },
     {
       "id": "ambulance",
-      "name": "Ambulance"
+      "displayCatName": "Ambulance"
     },
     {
       "id": "stationary",
-      "name": "Stationary"
+      "displayCatName": "Stationary"
     },
     {
       "id": "library",
-      "name": "Library"
+      "displayCatName": "Library"
     },
     {
       "id": "hotel",
-      "name": "Hotel"
+      "displayCatName": "Hotel"
     },
     {
       "id": "clinic",
-      "name": "Clinic"
+      "displayCatName": "Clinic"
     },
     {
       "id": "pet_store",
-      "name": "Pet Store"
+      "displayCatName": "Pet Store"
     },
     {
       "id": "gadgets",
-      "name": "Gadgets Store"
+      "displayCatName": "Gadgets Store"
     },
     {
       "id": "hardware",
-      "name": "Hardware Store"
+      "displayCatName": "Hardware Store"
     }
   ]
