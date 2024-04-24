@@ -201,7 +201,7 @@
   },
   {
     "id": "gadgets",
-    "categoryName": "Gadgets",
+    "categoryName": "Gadgets Store",
     "businesses": [
       {
         "businessName": "Gadget Galaxy",
@@ -221,7 +221,7 @@
   },
   {
     "id": "hardware",
-    "categoryName": "Hardware",
+    "categoryName": "Hardware Store",
     "businesses": [
       {
         "businessName": "Handyman Hardware",

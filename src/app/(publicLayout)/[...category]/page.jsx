@@ -4,10 +4,11 @@ import categories from './../../../../public/business.json'
 import BusinessCard from '@/app/components/ui/BusinessCard/BusinessCard';
 
 const categoryPage = ({ params }) => {
-    console.log(params.category);
 
+    const catName = decodeURIComponent(params.category);
+    console.log(catName);
 
-    const allBusinesses = categories.filter(allCategory => allCategory.id == params.category)
+    const allBusinesses = categories.filter(allCategory => allCategory.categoryName == catName)
 
     console.log(allBusinesses);
 
@@ -18,10 +19,10 @@ const categoryPage = ({ params }) => {
                 <div className="col-span-1 hidden md:block ">
                     <AllCategory></AllCategory>
                 </div>
-                <div className="col-span-4 bg-orange-300">
-                    this is category : {params.category}
+                <div className="col-span-4 ">
+                    <h2 className='text-center text-4xl text-green-900 font-bold uppercase my-4'>{catName}</h2>
 
-                    <div className='grid grid-cols-2'>
+                    <div className='grid grid-cols-2 gap-5'>
                         {
                             allBusinesses.length ? 
                             allBusinesses.map(category => (

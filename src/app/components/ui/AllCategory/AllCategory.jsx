@@ -17,7 +17,7 @@ const AllCategory = () => {
                         key={category.id}
                         >
                             <Link 
-                            href={`/${category.id}`}>
+                            href={`/${category.displayCatName}`}>
                                 {category.displayCatName}
                             </Link></li>))
                 }
